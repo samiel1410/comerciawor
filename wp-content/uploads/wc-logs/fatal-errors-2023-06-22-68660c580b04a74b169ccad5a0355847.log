@@ -1,0 +1,71 @@
+2023-06-22T14:32:54+00:00 CRITICAL syntax error, unexpected 'add_action' (T_STRING) en C:\xampp\htdocs\comercia\wp-content\themes\woodmart-child\functions.php en la línea 8
+
+2023-06-22T15:15:21+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function capturar_actualizacion_producto(), 1 passed in C:\xampp\htdocs\comercia\wp-includes\class-wp-hook.php on line 310 and exactly 2 expected in C:\xampp\htdocs\comercia\wp-content\themes\woodmart-child\functions.php:2
+Stack trace:
+#0 C:\xampp\htdocs\comercia\wp-includes\class-wp-hook.php(310): capturar_actualizacion_producto(1567)
+#1 C:\xampp\htdocs\comercia\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\comercia\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\comercia\wp-content\plugins\woocommerce\includes\data-stores\class-wc-product-data-store-cpt.php(275): do_action('woocommerce_upd...', 1567, Object(WC_Product_Simple))
+#4 C:\xampp\htdocs\comercia\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(196): WC_Product_Data_Store_CPT->update(Object(WC_Product_Simple))
+#5 C:\xampp\htdocs\comercia\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php(1428) en C:\xampp\htdocs\comercia\wp-content\themes\woodmart-child\functions.php en la línea 2
+
+2023-06-22T18:21:49+00:00 CRITICAL Uncaught Error: Call to undefined function wc_print_notices() in C:\xampp\htdocs\comercia\wp-content\plugins\woocommerce\includes\wc-template-functions.php:3848
+Stack trace:
+#0 C:\xampp\htdocs\comercia\wp-content\themes\woodmart\inc\integrations\woocommerce\template-tags.php(2146): woocommerce_output_all_notices()
+#1 C:\xampp\htdocs\comercia\wp-includes\class-wp-hook.php(308): woodmart_sidebar_login_form('')
+#2 C:\xampp\htdocs\comercia\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\comercia\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\comercia\wp-content\themes\woodmart\footer.php(74): do_action('woodmart_before...')
+#5 C:\xampp\htdocs\comercia\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\comercia\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\comercia\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\xampp\ en C:\xampp\htdocs\comercia\wp-content\plugins\woocommerce\includes\wc-template-functions.php en la línea 3848
+
+2023-06-22T18:21:57+00:00 CRITICAL Uncaught Error: Call to undefined function wc_print_notices() in C:\xampp\htdocs\comercia\wp-content\plugins\woocommerce\includes\wc-template-functions.php:3848
+Stack trace:
+#0 C:\xampp\htdocs\comercia\wp-content\themes\woodmart\inc\integrations\woocommerce\template-tags.php(2146): woocommerce_output_all_notices()
+#1 C:\xampp\htdocs\comercia\wp-includes\class-wp-hook.php(308): woodmart_sidebar_login_form('')
+#2 C:\xampp\htdocs\comercia\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\comercia\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\comercia\wp-content\themes\woodmart\footer.php(74): do_action('woodmart_before...')
+#5 C:\xampp\htdocs\comercia\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\comercia\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\comercia\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\xampp\ en C:\xampp\htdocs\comercia\wp-content\plugins\woocommerce\includes\wc-template-functions.php en la línea 3848
+
+2023-06-22T18:53:26+00:00 CRITICAL Uncaught Error: Call to undefined function wc_print_notices() in C:\xampp\htdocs\comercia\wp-content\plugins\woocommerce\includes\wc-template-functions.php:3848
+Stack trace:
+#0 C:\xampp\htdocs\comercia\wp-content\themes\woodmart\inc\integrations\woocommerce\template-tags.php(2146): woocommerce_output_all_notices()
+#1 C:\xampp\htdocs\comercia\wp-includes\class-wp-hook.php(308): woodmart_sidebar_login_form('')
+#2 C:\xampp\htdocs\comercia\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\comercia\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\comercia\wp-content\themes\woodmart\footer.php(74): do_action('woodmart_before...')
+#5 C:\xampp\htdocs\comercia\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\comercia\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\comercia\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\xampp\ en C:\xampp\htdocs\comercia\wp-content\plugins\woocommerce\includes\wc-template-functions.php en la línea 3848
+
+2023-06-22T18:54:06+00:00 CRITICAL Uncaught Error: Call to undefined function wc_print_notices() in C:\xampp\htdocs\comercia\wp-content\plugins\woocommerce\includes\wc-template-functions.php:3848
+Stack trace:
+#0 C:\xampp\htdocs\comercia\wp-content\themes\woodmart\inc\integrations\woocommerce\template-tags.php(2146): woocommerce_output_all_notices()
+#1 C:\xampp\htdocs\comercia\wp-includes\class-wp-hook.php(308): woodmart_sidebar_login_form('')
+#2 C:\xampp\htdocs\comercia\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\comercia\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\comercia\wp-content\themes\woodmart\footer.php(74): do_action('woodmart_before...')
+#5 C:\xampp\htdocs\comercia\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\comercia\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\comercia\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\xampp\ en C:\xampp\htdocs\comercia\wp-content\plugins\woocommerce\includes\wc-template-functions.php en la línea 3848
+
+2023-06-22T18:54:13+00:00 CRITICAL Uncaught Error: Call to undefined function wc_print_notices() in C:\xampp\htdocs\comercia\wp-content\plugins\woocommerce\includes\wc-template-functions.php:3848
+Stack trace:
+#0 C:\xampp\htdocs\comercia\wp-content\themes\woodmart\inc\integrations\woocommerce\template-tags.php(2146): woocommerce_output_all_notices()
+#1 C:\xampp\htdocs\comercia\wp-includes\class-wp-hook.php(308): woodmart_sidebar_login_form('')
+#2 C:\xampp\htdocs\comercia\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\comercia\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\comercia\wp-content\themes\woodmart\footer.php(74): do_action('woodmart_before...')
+#5 C:\xampp\htdocs\comercia\wp-includes\template.php(783): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\comercia\wp-includes\template.php(718): load_template('C:\\xampp\\htdocs...', true, Array)
+#7 C:\xampp\htdocs\comercia\wp-includes\general-template.php(92): locate_template(Array, true, true, Array)
+#8 C:\xampp\ en C:\xampp\htdocs\comercia\wp-content\plugins\woocommerce\includes\wc-template-functions.php en la línea 3848
+
